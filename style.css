@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #A151D6;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.search,
+.button {
+  margin-top: 8rem;
+}
+
+.search {
+  position: relative;
+   left: 30%; 
+}
+
+.button {
+  position: absolute;
+  left: 31%;
+  top: 0.5%;
+}
+
+.search-input{
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding-left: 3rem;
+  width: 50px;
+  transition: width 0.5s ease;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.active {
+  width: 200px;
+}
